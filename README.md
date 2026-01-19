@@ -1,3 +1,3 @@
-# angel
-this is my first repository
+# Angel
+This is my first repository
 author - Angel
