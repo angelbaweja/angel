@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(158, 147, 155);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card{
+    width: 300px ;
+    height: 400px ;
+    background: linear-gradient(180deg,rgb(194, 27, 133),rgb(27, 242, 70));
+    border-radius: 10px;
+    border: 4px solid white;
+    box-shadow: 0px 2px 15px lab(67.68% -3.4 -3.52);
+    display: grid;
+    place-items: center;
+}
+.profile{
+    width: 150px ;
+    height: 150px ;
+    background-image: url(../me4.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 70%;
+    border: 3px solid rgb(249, 247, 247);
+    box-shadow: 0px 4px 5px black;
+}
+.content{
+    text-align: center;
+    color: white;
+}
+.content p{
+    font-size: 19px;
+    margin: 9px 10px;
+
+}
+.card button{
+    padding: 12px 25px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+
+}
+.fa-brands{
+    font-size: 30px;
+    width: 30px;
+    margin: 6px 2px;
+    transition: all .5s ease;
+}
+.fa-brands:hover{
+    transform: translatey(-5px);
+}
